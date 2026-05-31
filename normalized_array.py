@@ -17,7 +17,11 @@ def normalized_array(data):
     data = np.array(data)
     
     # --- כיתבו את הקוד שלכם כאן ---
-    pass
+     if np.min(data) == np.max(data):
+        return np.zeros(data.shape)
+
+    return (data - np.min(data)) / (np.max(data) - np.min(data)
+                                    (
     # חשוב לזכור להחליף את pass ב- return
 
 if __name__ == "__main__":
