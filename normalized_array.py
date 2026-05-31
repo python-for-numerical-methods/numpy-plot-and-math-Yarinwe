@@ -18,8 +18,6 @@ def normalized_array(data):
     
     # --- כיתבו את הקוד שלכם כאן ---
 
-    data = np.array(data)
-
     min_val = np.min(data)
     max_val = np.max(data)
 
